@@ -13,3 +13,6 @@ images:
 manifests:
   yaml:
     - deploy.yaml
+    
+    
+    
