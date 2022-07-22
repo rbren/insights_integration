@@ -13,6 +13,7 @@ images:
 # These manifests will be scanned for configuration issues.
 manifests:
   yaml:
-    - . /deploy.yaml
+    - ./deploy.yaml
+    - ./testci.yaml
 
 
