@@ -8,8 +8,8 @@ options:
 # These images will be scanned for vulnerabilities.
 images:
   docker:
-    - nginx:$TAG
-    - java:$TAG
+    - nginx:1.7.9
+    - java:8
 
 # These manifests will be scanned for configuration issues.
 manifests:
