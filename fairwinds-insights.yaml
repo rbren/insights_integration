@@ -8,7 +8,7 @@ options:
 # These images will be scanned for vulnerabilities.
 images:
   docker:
-    - nginx:1.18-alpine
+    - $IMAGE:$TAG
 
 # These manifests will be scanned for configuration issues.
 manifests:
