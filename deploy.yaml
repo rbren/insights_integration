@@ -23,9 +23,8 @@ spec:
         - containerPort: 82
         securityContext:
           allowPrivilegeEscalation: true
-          privileged: false
-          readOnlyRootFilesystem: true
+          privileged: true
+          readOnlyRootFilesystem: false
           runAsNonRoot: true
           capabilities:
-            drop:
-              - ALL
+            add: ["NET_ADMIN"]
