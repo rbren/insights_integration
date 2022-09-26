@@ -8,6 +8,7 @@ options:
 images:
   docker:
     - nginx:1.7.9
+    - oracle-jdk:8
 
 # These manifests will be scanned for configuration issues.
 manifests:
