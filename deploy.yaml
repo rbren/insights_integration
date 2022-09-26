@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp-container10
-        image: oracle-jdk:8
+        image: redis:bullseye
       - name: nginx
         image: nginx:1.7.9
         ports:
