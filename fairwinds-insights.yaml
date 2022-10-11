@@ -3,7 +3,8 @@ options:
   severityThreshold: 0.7
   # You may need to set this to 'main'
   baseBranch: main
-
+  setExitCode: true
+  
 # These images will be scanned for vulnerabilities.
 images:
   docker:
