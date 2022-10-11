@@ -24,6 +24,6 @@ spec:
         securityContext:
           allowPrivilegeEscalation: true
           readOnlyRootFilesystem: false
-          runAsNonRoot: true
+          runAsNonRoot: false
           capabilities:
             add: ["NET_ADMIN"]
